@@ -13,10 +13,21 @@
   <h1 class="text-xl text-center lg:text-2xl xl:text-3xl font-larrikin">
     Welcome 👋
   </h1>
-  <h4
+  <h2
     class="w-3/4 font-mono text-lg font-semibold text-center text-gray-700 xl:text-xl"
   >
     This website provides data visualization of weatherdata by the DWD
     (Deutscher Wetterdienst)
-  </h4>
+  </h2>
+  <article
+    class="w-2/3 p-4 my-6 font-mono text-white bg-red-500 rounded-md lg:p-6"
+  >
+    ⚠️ This Site is under construction. Support the project by opening up issues
+    or contributing code <a
+      href="https://github.com/HAUDRAUFHAUN/dwd-viz"
+      class="underline"
+      target="_blank"
+      rel="noopener">on GitHub</a
+    >
+  </article>
 </section>
