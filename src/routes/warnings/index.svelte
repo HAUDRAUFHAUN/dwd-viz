@@ -13,9 +13,16 @@
   <h1 class="text-xl text-center lg:text-2xl xl:text-3xl font-larrikin">
     ⚠️ warnings
   </h1>
-  <h4
-    class="w-3/4 font-mono text-lg font-semibold text-center text-gray-700 xl:text-xl"
+  <h2
+    class="w-3/4 mb-2 font-mono text-lg font-semibold text-center text-gray-700 lg:mb-4 xl:mb-6 xl:text-xl"
   >
-    This section provides weather warnings (no guarantee of corectness)
-  </h4>
+    This section provides weather warnings (<span class="text-yellow-500">no guarantee of corectness</span>)
+  </h2>
+  <br />
+  <ul class="font-mono list-inside ">
+    <li>
+      🇩🇪
+      <a href="/warnings/sea" class="underline">Hochsee Unwetterwarnungen</a>
+    </li>
+  </ul>
 </section>
