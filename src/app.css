@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Palette Mosaic";
+    src: url("/fonts/palette-mosaic/PaletteMosaic-Regular.ttf");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Sharpie VF";
+    src: url("/fonts/sharpie/variable/Sharpie-Variable.woff2")
+        format("woff2-variations"),
+      url("/fonts/sharpie/variable/Sharpie-Regular.woff") format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Sharpie";
+    src: url("/fonts/sharpie/static/Sharpie-Regular.woff2") format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Sharpie";
+    src: url("/fonts/sharpie/static/Sharpie-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Larrikin";
+    src: url("/fonts/Larrikin/Larrikin-Display.otf");
+    font-display: swap;
+  }
+}
